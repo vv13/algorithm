@@ -1,1 +1,1 @@
-Javascript solutions.
+JavaScript solutions.
