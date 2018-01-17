@@ -14,4 +14,3 @@ var intToRoman = (num) => {
   return M[parseInt(num / 1000)] + C[parseInt(num % 1000 / 100)] + X[parseInt(num % 100 / 10)] + I[parseInt(num % 10)]
 };
 
-// Runtime: 242 ms, beats 79.54%

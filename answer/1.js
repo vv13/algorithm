@@ -23,4 +23,3 @@ const twoSum = (nums, target) => {
   }
 };
 
-// Runtime: 198 ms, beats 51.42%

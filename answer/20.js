@@ -30,5 +30,3 @@ function isValid(s) {
   }
   return !stack.length;
 }
-
-// Runtime: 108 ms, beats 35.78%

@@ -34,4 +34,3 @@ const longestCommonPrefix = strs => {
   return str1.slice(0, i);
 };
 
-// Runtime: 107 ms, beats 41.30%

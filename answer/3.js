@@ -31,5 +31,3 @@ const lengthOfLongestSubstring = s => {
   }
   return answer;
 };
-
-// Runtime: 165 ms, beats 79.35%

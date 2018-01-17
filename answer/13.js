@@ -26,5 +26,3 @@ var romanToInt = s => {
   }
   return sum;
 };
-
-// Runtime: 275 ms, beats 46.92%

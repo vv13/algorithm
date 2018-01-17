@@ -30,5 +30,3 @@ var isPalindrome = (x) => {
   }
   return x === num || x == parseInt(num / 10);
 };
-
-// Runtime: 435 ms, beats 62.74%

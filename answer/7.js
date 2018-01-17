@@ -31,5 +31,3 @@ const reverse = x => {
   if (Math.abs(number) >= 2147483647) return 0;
   return number;
 };
-
-// Runtime: 146 ms, beats 39.65%
