@@ -19,7 +19,7 @@ Assume we are dealing with an environment which could only hold integers within 
  * @param {number} x
  * @return {number}
  */
-const reverse = x => {
+const reverse = (x) => {
   const number = parseInt(
     (x > 0 ? '' : '-') +
       Math.abs(x)
@@ -27,7 +27,7 @@ const reverse = x => {
         .split('')
         .reverse()
         .join('')
-  );
-  if (Math.abs(number) >= 2147483647) return 0;
-  return number;
-};
+  )
+  if (Math.abs(number) >= 2147483647) return 0
+  return number
+}

@@ -15,18 +15,18 @@ There is a more generic way of solving this problem.
  * @param {number} x
  * @return {boolean}
  */
-var isPalindrome = (x) => {
-  if (x < 0){
-      return false;
+const isPalindrome = (x) => {
+  if (x < 0) {
+    return false
   } else if (x < 10) {
-      return true;
+    return true
   } else if (x % 10 === 0) {
-      return false;
+    return false
   }
-  let num = 0;
+  let num = 0
   while (x > num) {
-      num = num * 10 + x % 10;
-      x = parseInt(x / 10);
+    num = num * 10 + x % 10
+    x = parseInt(x / 10)
   }
-  return x === num || x == parseInt(num / 10);
-};
+  return x === num || x == parseInt(num / 10)
+}

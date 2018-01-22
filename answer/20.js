@@ -6,27 +6,27 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
  * @param {string} s
  * @return {boolean}
  */
-function isValid(s) {
-  const stack = [];
-  const characters = ['(', '{', '['];
+const isValid = (s) => {
+  const stack = []
+  const characters = ['(', '{', '[']
   const characterMap = {
     '}': '{',
     ']': '[',
     ')': '(',
-  };
+  }
   for (let i = 0; i < s.length; i += 1) {
-    let char = s.charAt(i);
+    let char = s.charAt(i)
     if (characters.indexOf(char) > -1) {
-      stack.push(char);
+      stack.push(char)
     } else if (characterMap[char]) {
       if (stack.slice(-1)[0] === characterMap[char]) {
-        stack.pop();
+        stack.pop()
       } else {
-        return false;
+        return false
       }
     } else {
-      return false;
+      return false
     }
   }
-  return !stack.length;
+  return !stack.length
 }

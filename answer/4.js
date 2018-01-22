@@ -18,10 +18,8 @@ The median is (2 + 3)/2 = 2.5
  * @param {number[]} nums2
  * @return {number}
  */
-var findMedianSortedArrays = (nums1, nums2) => {
-  const nums = nums1.concat(nums2).sort((x, y) => (x >= y ? 1 : -1));
-  const len = nums.length;
-  return len % 2 === 1 ? nums[Math.floor(len / 2)] : (nums[len / 2 - 1] + nums[len / 2]) / 2;
-};
-
-// Runtime: 265 ms, beats 23.29%
+const findMedianSortedArrays = (nums1, nums2) => {
+  const nums = nums1.concat(nums2).sort((x, y) => (x >= y ? 1 : -1))
+  const len = nums.length
+  return len % 2 === 1 ? nums[Math.floor(len / 2)] : (nums[len / 2 - 1] + nums[len / 2]) / 2
+}

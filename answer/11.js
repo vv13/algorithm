@@ -6,20 +6,18 @@ Note: You may not slant the container and n is at least 2.
  * @param {number[]} height
  * @return {number}
  */
-var maxArea = function(height) {
-  let max = 0;
-  let left = 0;
-  let right = height.length - 1;
+const maxArea = (height) => {
+  let max = 0
+  let left = 0
+  let right = height.length - 1
   while (left < right) {
-      const result = Math.min(height[left], height[right]) * (right - left);
-      if (max < result) max = result;
-      if (height[left] < height[right]) {
-          left += 1;
-      } else {
-          right -= 1;
-      }
+    const result = Math.min(height[left], height[right]) * (right - left)
+    if (max < result) max = result
+    if (height[left] < height[right]) {
+      left += 1
+    } else {
+      right -= 1
+    }
   }
-  return max;
-};
-
-// Runtime: 107 ms, beats 40.80%
+  return max
+}
