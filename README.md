@@ -15,5 +15,6 @@ JavaScript solutions.
 * [13 Roman to Intege](./answer/13.js) 275ms 47%
 * [14 Longest Common Prefix](./answer/14.js) 107ms 41%
 * [15 3Sum](./answer/15.js) 317ms 57%
+* [16 3Sum Closest](./answer/16.js) 117ms  62.04%
 * [20 Valid Parentheses](./answer/20.js) 108ms 36%
 * [21 Merge Two Sorted Lists](./answer/21.js) 109ms 63%

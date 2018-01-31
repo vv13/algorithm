@@ -14,7 +14,7 @@ A solution set is:
  * @param {number[]} nums
  * @return {number[][]}
  */
-function threeSum(nums) {
+const threeSum = nums => {
   const results = []
   const { positive, negative, numCount } = filterNums(nums)
 
