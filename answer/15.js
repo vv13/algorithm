@@ -16,68 +16,27 @@ A solution set is:
  */
 const threeSum = nums => {
   const results = []
-  const { positive, negative, numCount } = filterNums(nums)
-
-  if (numCount[0] > 2) results.push([0, 0, 0]) // all 0
-
-  negative.forEach((e) => {
-    // includes 0
-    if (numCount[0] && numCount[e * -1]) {
-      results.push([e, 0, -e])
-    }
-    // two same
-    const r2Same = -1 * e / 2
-    const r1Same = -1 * e * 2
-    if (numCount[r2Same] >= 2) {
-      results.push([e, r2Same, r2Same])
-    }
-    if (numCount[e] >= 2 && numCount[r1Same]) {
-      results.push([e, e, r1Same])
-    }
-  })
-
-  // other
-  const finds = negative.concat(positive)
-  for (let i = 0; i < finds.length - 2; i++) {
-    const aim = -1 * finds[i]
-    let left = i + 1
-    let right = finds.length - 1
-    while (left < right) {
-      if (finds[left] + finds[right] === aim) {
-        results.push([finds[i], finds[left], finds[right]])
-        left++
-        right--
-      } else if (finds[left] + finds[right] <= aim) {
-        left++
+  const len = nums.length
+  if (len < 3) return results
+  nums.sort((a, b) => a - b)
+  for (let i = 0; i < len - 2; i += 1) {
+    if (i > 0 && nums[i] === nums[i - 1]) continue
+    let low = i + 1
+    let high = len  - 1
+    const sum = -nums[i]
+    while(low < high) {
+      if (nums[low] + nums[high] === sum) {
+        results.push([nums[i], nums[low], nums[high]])
+        while (low < high && nums[low] === nums[low + 1]) low += 1
+        while (low < high && nums[high] === nums[high - 1]) high -= 1
+        low += 1
+        high -= 1
+      } else if (nums[low] + nums[high] < sum) {
+        low += 1
       } else {
-        right--
+        high -= 1
       }
     }
   }
-
   return results
-}
-
-function filterNums(nums) {
-  const filterd = []
-  const negative = []
-  const positive = []
-  const numCount = {}
-  nums.forEach((e) => {
-    numCount[e] = numCount[e] ? numCount[e] + 1 : 1
-    if (e !== 0 && numCount[e] === 1) {
-      if (e > 0) {
-        positive.push(e)
-      } else {
-        negative.push(e)
-      }
-    }
-  })
-  positive.sort((a, b) => a - b)
-  negative.sort((a, b) => a - b)
-  return {
-    positive,
-    negative,
-    numCount,
-  }
 }
