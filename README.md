@@ -16,9 +16,10 @@ JavaScript solutions.
 | [12 Integer to Roman](./answer/10.js)                        | 242         | 80       |
 | [13 Roman to Integer](./answer/13.js)                        | 275         | 47       |
 | [14 Longest Common Prefix](./answer/14.js)                   | 107         | 62       |
-| [15 3Sum](./answer/15.js)                                    | 180         | 97       |
+| [15 3Sum](./answer/15.js)                                    | 180         | 97⚡️      |
 | [16 3Sum Closest](./answer/16.js)                            | 117         | 62       |
 | [17 Letter Combinations of a Phone Number](./answer/17.js)   | 89          | 57       |
-| [18 4Sum](./answer/18.js)                                    | 84          | 100      |
+| [18 4Sum](./answer/18.js)                                    | 84          | 100⚡️     |
 | [20 Valid Parentheses](./answer/20.js)                       | 108         | 36       |
 | [21 Merge Two Sorted Lists](./answer/21.js)                  | 109         | 63       |
+| [771 Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 60          | 97⚡️      |
