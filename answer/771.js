@@ -22,13 +22,8 @@ The characters in J are distinct.
  */
 var numJewelsInStones = function (J, S) {
     let count = 0
-    let holder = S.split('')
-    J.split('')
-        .forEach(j => {
-            if (!holder.includes(j) || !holder.length) return
-            const newHolder = holder.filter(s => j !== s)
-            count += holder.length - newHolder.length
-            holder = newHolder
-        })
+    S.split('').forEach(s => {
+        if (J.includes(s)) count += 1
+    })
     return count
-};
+}
