@@ -20,8 +20,8 @@ JavaScript solutions.
 | [16 3Sum Closest](./answer/16.js)                            | 62       |
 | [17 Letter Combinations of a Phone Number](./answer/17.js)   | 57       |
 | [18 4Sum](./answer/18.js)                                    | 100⚡️     |
+| [19  Remove Nth Node From End of List](./answer/19.js)       | 82       |
 | [20 Valid Parentheses](./answer/20.js)                       | 36       |
 | [21 Merge Two Sorted Lists](./answer/21.js)                  | 63       |
 | [771 Jewels and Stones](./answer/771.js)                     | 97⚡️      |
 | [807. Max Increase to Keep City Skyline](./answer/807.js))   | 76       |
-
