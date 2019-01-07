@@ -52,3 +52,25 @@ var swapPairs = function(head) {
   }
   return firstHead;
 };
+
+/*
+Version 2:
+  相比较于v1，v2不再维护交换数的索引prev index nextd，因为索引交换后，再将索引进行赋值，逻辑比较复杂，因此只需要记录当前指针的位置，然后取当前指针的后两位数进行判断即可。
+*/
+var swapPairs = function(head) {
+  if (!head || !head.next) return head;
+  const firstHead = new ListNode(0)
+  firstHead.next = head;
+
+  let index = firstHead
+  
+  while(index.next && index.next.next) {
+      const first = index.next;
+      const second = index.next.next;
+      first.next = second.next
+      index.next = second;
+      index.next.next = first;
+      index = index.next.next
+  }
+  return firstHead.next;
+};
