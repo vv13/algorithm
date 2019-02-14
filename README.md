@@ -12,3 +12,8 @@ Then, you can run it:
 $ cd crawler && npm i
 $ node index
 ```
+
+## list
+- 46，全排列
+- 47，无符号全排列
+- ...

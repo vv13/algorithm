@@ -18,34 +18,24 @@ function writeQuestionDescription(dirname, content) {
 }
 
 (async function() {
-  const { text } = await request
-    .get(config.API_PROBLEMS)
-    .set('Accept', 'text/html');
+  const { text } = await request.get(config.API_PROBLEMS).set('Accept', 'text/html');
   const data = JSON.parse(text);
   data.stat_status_pairs.forEach(async pair => {
     const {
       difficulty: { level },
-      stat: { frontend_question_id, question__title_slug }
+      stat: { frontend_question_id, question__title_slug },
     } = pair;
-    if (
-      !(
-        process.env.QUESTION_FROM <= frontend_question_id &&
-        process.env.QUESTION_TO >= frontend_question_id
-      )
-    ) {
+    const { QUESTION_FROM, QUESTION_TO } = process.env;
+    if (!(QUESTION_FROM <= frontend_question_id && QUESTION_TO >= frontend_question_id)) {
       return;
     }
     const {
       body: {
-        data: { question }
-      }
-    } = await request
-      .post(config.API_GRAPHQL)
-      .send(config.questionDataQL(question__title_slug));
-    const dictionaryName = `${frontend_question_id}_${question__title_slug}_${
-      config.levelMap[level]
-    }`;
-    writeQuestionDictionary(dictionaryName);
-    writeQuestionDescription(dictionaryName, question);
+        data: { question },
+      },
+    } = await request.post(config.API_GRAPHQL).send(config.questionDataQL(question__title_slug));
+    const dirname = `${frontend_question_id}_${question__title_slug}_${config.levelMap[level]}`;
+    writeQuestionDictionary(dirname);
+    writeQuestionDescription(dirname, question);
   });
 })();
