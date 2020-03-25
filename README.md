@@ -25,5 +25,7 @@
 |021|[merge-two-sorted-lists](./leetcode/021.merge-two-sorted-lists.easy/)|easy||[答案](./leetcode/021.merge-two-sorted-lists.easy//solution.py)  [原题](https://leetcode.com/problems/merge-two-sorted-lists)||
 |022|[generate-parentheses](./leetcode/022.generate-parentheses.medium/)|medium|回溯法|[答案](./leetcode/022.generate-parentheses.medium//solution.py)  [原题](https://leetcode.com/problems/generate-parentheses)||
 |023|[merge-k-sorted-lists](./leetcode/023.merge-k-sorted-lists.hard/)|hard||[答案](./leetcode/023.merge-k-sorted-lists.hard//solution.py)  [原题](https://leetcode.com/problems/merge-k-sorted-lists)|待优化|
+|024|[swap-nodes-in-pairs](./leetcode/024.swap-nodes-in-pairs.medium/)|medium||[答案](./leetcode/024.swap-nodes-in-pairs.medium//solution.py)  [原题](https://leetcode.com/problems/swap-nodes-in-pairs)||
+|025|[reverse-nodes-in-k-group](./leetcode/025.reverse-nodes-in-k-group.hard/)|hard||[答案](./leetcode/025.reverse-nodes-in-k-group.hard//solution.py)  [原题](https://leetcode.com/problems/reverse-nodes-in-k-group)||
 |026|[remove-duplicates-from-sorted-array](./leetcode/026.remove-duplicates-from-sorted-array.easy/)|easy||[答案](./leetcode/026.remove-duplicates-from-sorted-array.easy//solution.py)  [原题](https://leetcode.com/problems/remove-duplicates-from-sorted-array)||
 |454|[4sum-ii](./leetcode/454.4sum-ii.medium/)|medium|N Sum|[答案](./leetcode/454.4sum-ii.medium//solution.py)  [原题](https://leetcode.com/problems/4sum-ii)||
