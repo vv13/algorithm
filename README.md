@@ -29,4 +29,5 @@
 |025|[reverse-nodes-in-k-group](./leetcode/025.reverse-nodes-in-k-group.hard/)|hard||[答案](./leetcode/025.reverse-nodes-in-k-group.hard//solution.py)  [原题](https://leetcode.com/problems/reverse-nodes-in-k-group)|重构列表翻转部分逻辑|
 |026|[remove-duplicates-from-sorted-array](./leetcode/026.remove-duplicates-from-sorted-array.easy/)|easy||[答案](./leetcode/026.remove-duplicates-from-sorted-array.easy//solution.py)  [原题](https://leetcode.com/problems/remove-duplicates-from-sorted-array)||
 |027|[remove-element](./leetcode/027.remove-element.easy/)|easy||[答案](./leetcode/027.remove-element.easy//solution.py)  [原题](https://leetcode.com/problems/remove-element)||
+|028|[implement-strstr](./leetcode/028.implement-strstr.easy/)|easy||[答案](./leetcode/028.implement-strstr.easy//solution.py)  [原题](https://leetcode.com/problems/implement-strstr)||
 |454|[4sum-ii](./leetcode/454.4sum-ii.medium/)|medium|N Sum|[答案](./leetcode/454.4sum-ii.medium//solution.py)  [原题](https://leetcode.com/problems/4sum-ii)||
