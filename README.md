@@ -32,4 +32,6 @@
 |028|[implement-strstr](./leetcode/028.implement-strstr.easy/)|easy||[答案](./leetcode/028.implement-strstr.easy//solution.py)  [原题](https://leetcode.com/problems/implement-strstr)||
 |029|[divide-two-integers](./leetcode/029.divide-two-integers.medium/)|medium||[答案](./leetcode/029.divide-two-integers.medium//solution.py)  [原题](https://leetcode.com/problems/divide-two-integers)||
 |046|[permutations](./leetcode/046.permutations.medium/)|medium||[答案](./leetcode/046.permutations.medium//solution.py)  [原题](https://leetcode.com/problems/permutations)||
+|047|[permutations-ii](./leetcode/047.permutations-ii.medium/)|medium||[答案](./leetcode/047.permutations-ii.medium//solution.py)  [原题](https://leetcode.com/problems/permutations-ii)|重构列表翻转部分逻辑|
+|300|[longest-increasing-subsequence](./leetcode/300.longest-increasing-subsequence.medium/)|medium|N Sum|[答案](./leetcode/300.longest-increasing-subsequence.medium//solution.py)  [原题](https://leetcode.com/problems/longest-increasing-subsequence)||
 |454|[4sum-ii](./leetcode/454.4sum-ii.medium/)|medium|N Sum|[答案](./leetcode/454.4sum-ii.medium//solution.py)  [原题](https://leetcode.com/problems/4sum-ii)||
