@@ -46,3 +46,8 @@ class Solution:
                 else:
                     right -= 1
         return result
+
+if __name__ == "__main__":
+    testcase = [-1,0,1,2,-1,-4]
+    result = Solution().threeSum(testcase)
+    print(result)

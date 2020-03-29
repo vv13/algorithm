@@ -19,3 +19,7 @@ class Solution:
                     max = j - i
         return s[start:end + 1]
 
+if __name__ == "__main__":
+    testcase = 'asdfjsadjfkdslajasdfdsa'
+    result = Solution().longestPalindrome(testcase)
+    print(result)

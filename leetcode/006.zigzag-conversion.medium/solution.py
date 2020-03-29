@@ -15,3 +15,7 @@ class Solution:
         return ''.join([i for item in arrs for i in item])
 
 
+if __name__ == "__main__":
+    testcase = ['PAYPALISHIRING', 6]
+    result = Solution().convert(testcase[0], testcase[1])
+    print(result)

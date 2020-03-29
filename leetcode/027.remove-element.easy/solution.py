@@ -9,3 +9,6 @@ class Solution:
                 idx += 1
         return idx
         
+if __name__ == "__main__":
+    result = Solution().removeElement([3,2,2,3], 3)
+    print(result)

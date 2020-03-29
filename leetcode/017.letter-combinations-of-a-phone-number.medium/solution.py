@@ -14,3 +14,7 @@ class Solution:
                 for j in map_list[int(digits[i])]:
                     result.append(prefix + j)
         return result
+
+if __name__ == "__main__":
+    result = Solution().letterCombinations('234')
+    print(result)
