@@ -37,4 +37,4 @@
 |300|[longest-increasing-subsequence](./leetcode/300.longest-increasing-subsequence.medium/)|medium||[答案](./leetcode/300.longest-increasing-subsequence.medium//solution.py)  [原题](https://leetcode.com/problems/longest-increasing-subsequence)||
 |454|[4sum-ii](./leetcode/454.4sum-ii.medium/)|medium|N Sum|[答案](./leetcode/454.4sum-ii.medium//solution.py)  [原题](https://leetcode.com/problems/4sum-ii)||
 |771|[jewels-and-stones](./leetcode/771.jewels-and-stones.easy/)|easy|N Sum|[答案](./leetcode/771.jewels-and-stones.easy//solution.py)  [原题](https://leetcode.com/problems/jewels-and-stones)||
-|807|[max-increase-to-keep-city-skyline](./leetcode/807.max-increase-to-keep-city-skyline.medium/)|medium||[答案](./leetcode/807.max-increase-to-keep-city-skyline.medium//solution.py)  [原题](https://leetcode.com/problems/max-increase-to-keep-city-skyline)||
+|807|[max-increase-to-keep-city-skyline](./leetcode/807.max-increase-to-keep-city-skyline.medium/)|medium|N Sum|[答案](./leetcode/807.max-increase-to-keep-city-skyline.medium//solution.py)  [原题](https://leetcode.com/problems/max-increase-to-keep-city-skyline)||
