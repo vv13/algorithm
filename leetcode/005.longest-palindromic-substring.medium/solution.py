@@ -12,14 +12,10 @@ class Solution:
                 elif i + 1 == j:
                     dp[i][j] = (s[i] == s[j])
                 else:
-                    dp[i][j] = s[i] == s[j] and dp[i+1][j-1]
+                    dp[i][j] = s[i] == s[j] and dp[i + 1][j - 1]
                 if dp[i][j] and j - i > max:
                     start = i
                     end = j
                     max = j - i
         return s[start:end + 1]
 
-if __name__ == "__main__":
-    testcase = 'asdfjsadjfkdslajasdfdsa'
-    result = Solution().longestPalindrome(testcase)
-    print(result)

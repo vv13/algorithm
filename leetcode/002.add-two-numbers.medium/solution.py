@@ -1,10 +1,8 @@
-
-
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+import sys
+from os import path
+sys.path.insert(0, path.abspath(path.join(__file__, '../../utility')))
+from test_runner import testRunner
+from ListNode import ListNode
 
 
 class Solution:
@@ -21,3 +19,9 @@ class Solution:
             if l2:
                 l2 = l2.next
         return l3.next
+
+
+if __name__ == "__main__":
+    inputs = []
+    expects = []
+    testRunner(inputs, Solution().addTwoNumbers, expects)

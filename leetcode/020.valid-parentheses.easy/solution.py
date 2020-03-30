@@ -14,9 +14,3 @@ class Solution:
             else:
                 return False
         return len(arr) == 0
-
-if __name__ == "__main__":
-    # result = Solution().isValid('()')
-    result = Solution().isValid('(())')
-
-    print(result)

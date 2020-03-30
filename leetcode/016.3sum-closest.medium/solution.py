@@ -22,10 +22,3 @@ class Solution:
                 else:
                     left += 1
         return closest_sum
-
-if __name__ == "__main__":
-    # result = Solution().threeSumClosest([-1,2,1,-4], 1)
-    # result = Solution().threeSumClosest([1,1,1,0], -100)
-    result = Solution().threeSumClosest([0,2,1,-3], 1)
-
-    print(result)

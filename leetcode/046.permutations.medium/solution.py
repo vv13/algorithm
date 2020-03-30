@@ -33,8 +33,3 @@ class Solution:
         res = []
         sort(nums, res, 0)
         return res
-
-if __name__ == "__main__":
-    result = Solution().permute2([3,2,4, 5, 7])
-    print(result)
-

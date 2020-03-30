@@ -1,3 +1,4 @@
+
 class Solution:
     def myAtoi(self, str: str) -> int:
         MAX_NUM = pow(2, 31) - 1

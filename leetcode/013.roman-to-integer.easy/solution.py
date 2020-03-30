@@ -17,5 +17,3 @@ class Solution:
             prev = i
 
         return ret
-
-print(Solution().romanToInt('MMMIIV'))

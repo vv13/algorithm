@@ -15,10 +15,3 @@ class Solution:
             if s[i] != s[slen - 1 - i]:
                 return False
         return True
-
-
-    
-
-
-print(Solution().isPalindrome(12021))
-print(Solution().isPalindrome(-121))

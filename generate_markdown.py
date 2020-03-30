@@ -28,6 +28,6 @@ file.write('''
 | 序号 | 名称 | 难度 | 标签 | 链接 | 备注 |
 | :----:| :---- | :----: | :----: | :----: | :---- |
 ''')
-leetcodes = [genLineStr(i) for i in sorted(os.listdir('./leetcode'))]
+leetcodes = [genLineStr(i) for i in sorted(os.listdir('./leetcode')) if i != 'utility']
 file.write(os.linesep.join(leetcodes))
 file.close()

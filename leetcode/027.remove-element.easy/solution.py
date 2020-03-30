@@ -1,4 +1,10 @@
+import sys
+from os import path
+sys.path.insert(0, path.abspath(path.join(__file__, '../../utility')))
+from test_runner import testRunner
+
 from typing import List
+
 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
@@ -8,7 +14,10 @@ class Solution:
                 nums[idx] = nums[i]
                 idx += 1
         return idx
-        
+
+
 if __name__ == "__main__":
-    result = Solution().removeElement([3,2,2,3], 3)
-    print(result)
+    inputs = [
+    ]
+    expects = [2]
+    testRunner(inputs, Solution().removeElement, expects)
