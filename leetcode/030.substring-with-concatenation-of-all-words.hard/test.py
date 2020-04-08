@@ -11,6 +11,7 @@ if __name__ == "__main__":
         ["wordgoodgoodgoodbestword", ["word", "good", "best", "word"]],
         ["barfoothefoobarman", ["foo", "bar"]],
         ["wordgoodgoodgoodbestword", ["word", "good", "best", "good"]],
-        ["ababaab", ["ab", "ba", "ba"]]
+        ["ababaab", ["ab", "ba", "ba"]],
+        ["mississippi", ["is"]]
     ]
     testRunner(inputs, Solution)
