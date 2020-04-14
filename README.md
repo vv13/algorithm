@@ -30,6 +30,10 @@
 |027|[remove-element](./leetcode/027.remove-element.easy/)|easy||[答案](./leetcode/027.remove-element.easy//solution.py)  [原题](https://leetcode.com/problems/remove-element)||
 |028|[implement-strstr](./leetcode/028.implement-strstr.easy/)|easy||[答案](./leetcode/028.implement-strstr.easy//solution.py)  [原题](https://leetcode.com/problems/implement-strstr)||
 |029|[divide-two-integers](./leetcode/029.divide-two-integers.medium/)|medium||[答案](./leetcode/029.divide-two-integers.medium//solution.py)  [原题](https://leetcode.com/problems/divide-two-integers)||
+|030|[substring-with-concatenation-of-all-words](./leetcode/030.substring-with-concatenation-of-all-words.hard/)|hard||[答案](./leetcode/030.substring-with-concatenation-of-all-words.hard//solution.py)  [原题](https://leetcode.com/problems/substring-with-concatenation-of-all-words)||
+|031|[next-permutation](./leetcode/031.next-permutation.medium/)|medium||[答案](./leetcode/031.next-permutation.medium//solution.py)  [原题](https://leetcode.com/problems/next-permutation)||
+|032|[longest-valid-parentheses](./leetcode/032.longest-valid-parentheses.hard/)|hard||[答案](./leetcode/032.longest-valid-parentheses.hard//solution.py)  [原题](https://leetcode.com/problems/longest-valid-parentheses)||
+|035|[search-insert-position](./leetcode/035.search-insert-position.easy/)|easy||[答案](./leetcode/035.search-insert-position.easy//solution.py)  [原题](https://leetcode.com/problems/search-insert-position)|重构列表翻转部分逻辑|
 |046|[permutations](./leetcode/046.permutations.medium/)|medium||[答案](./leetcode/046.permutations.medium//solution.py)  [原题](https://leetcode.com/problems/permutations)||
 |047|[permutations-ii](./leetcode/047.permutations-ii.medium/)|medium||[答案](./leetcode/047.permutations-ii.medium//solution.py)  [原题](https://leetcode.com/problems/permutations-ii)|重构列表翻转部分逻辑|
 |136|[single-number](./leetcode/136.single-number.easy/)|easy|异或运算|[答案](./leetcode/136.single-number.easy//solution.py)  [原题](https://leetcode.com/problems/single-number)||
@@ -113,3 +117,9 @@ all test passed
 ```
 
 若需要生成 README，请参考 `generate_markdown.py` 文件，欢迎 star 或 folk。
+
+## 相关文章
+- [冒泡、选择与插入排序](https://vv13.cn/Algorithm/%E5%86%92%E6%B3%A1%E3%80%81%E9%80%89%E6%8B%A9%E4%B8%8E%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/)
+- [求质数的几种方法](https://vv13.cn/Algorithm/%E6%B1%82%E8%B4%A8%E6%95%B0%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/)
+- [八皇后问题](https://vv13.cn/Algorithm/%E5%85%AB%E7%9A%87%E5%90%8E%E9%97%AE%E9%A2%98/)
+- [汉诺塔问题](https://vv13.cn/Algorithm/%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98/)
