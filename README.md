@@ -40,6 +40,7 @@
 |47|[permutations-ii](./leetcode/047.permutations-ii/)|medium||[答案](./leetcode/047.permutations-ii//solution.py)  [原题](https://leetcode.com/problems/permutations-ii)|||
 |53|[maximum-subarray](./leetcode/053.maximum-subarray/)|easy||[答案](./leetcode/053.maximum-subarray//solution.py)  [原题](https://leetcode.com/problems/maximum-subarray)|||
 |136|[single-number](./leetcode/136.single-number/)|easy|异或运算|[答案](./leetcode/136.single-number//solution.py)  [原题](https://leetcode.com/problems/single-number)||95.55%|
+|141|[linked-list-cycle](./leetcode/141.linked-list-cycle/)|easy||[答案](./leetcode/141.linked-list-cycle//solution.py)  [原题](https://leetcode.com/problems/linked-list-cycle)||86%|
 |202|[happy-number](./leetcode/202.happy-number/)|easy||[答案](./leetcode/202.happy-number//solution.py)  [原题](https://leetcode.com/problems/happy-number)  [解题思路](./leetcode/202.happy-number//DRAFT.md)|||
 |300|[longest-increasing-subsequence](./leetcode/300.longest-increasing-subsequence/)|medium||[答案](./leetcode/300.longest-increasing-subsequence//solution.py)  [原题](https://leetcode.com/problems/longest-increasing-subsequence)||30.35%|
 |454|[4sum-ii](./leetcode/454.4sum-ii/)|medium|N Sum|[答案](./leetcode/454.4sum-ii//solution.py)  [原题](https://leetcode.com/problems/4sum-ii)|||
