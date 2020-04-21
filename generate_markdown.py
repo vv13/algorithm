@@ -7,21 +7,22 @@ LEETCODE_URL = 'https://leetcode.com/problems/'
 
 def genLineStr(s: str):
     source_dir = './leetcode/%s/' % s
-    number, name, difficulty = s.split('.')
-    info = {'mark': '', 'tags': '', 'rank': '', 'number': number,
-            'difficulty': difficulty, 'name': name}
+    number, name = s.split('.')
+    info = {'mark': '', 'tags': '', 'rank': '', 'number': int(number),
+            'difficulty': '', 'name': name}
     info['link_name'] = '[{0}]({1})'.format(name, source_dir)
-    if os.path.exists(source_dir + 'relation.json'):
-        relation_file = open(source_dir + '/relation.json', 'r')
-        relation_data = json.load(relation_file)
-        info['tags'] = ', '.join(relation_data.get('tags', []))
-        info['mark'] = relation_data.get('mark', '')
-        rank = relation_data.get('rank', '')
+    if os.path.exists(source_dir + 'information.json'):
+        information_file = open(source_dir + '/information.json', 'r')
+        information_data = json.load(information_file)
+        info['tags'] = ', '.join(information_data.get('tags', []))
+        info['mark'] = information_data.get('mark', '')
+        info['difficulty'] = information_data.get('difficulty', '')
+        rank = information_data.get('rank', '')
         info['rank'] = str(rank) + '%' if rank else ''
-        relation_file.close()
+        information_file.close()
 
     links = [
-        '[答案]({0})'.format(source_dir + '/solution.py'),
+        '[答案]({0})'.format(os.path.join(source_dir + '/solution.py')),
         '[原题]({0})'.format(LEETCODE_URL + name)
     ]
     if os.path.exists(source_dir + 'DRAFT.md'):

@@ -1,0 +1,7 @@
+{
+    "tags": [
+        "N Sum"
+    ],
+    "difficulty": "medium",
+    "similarQuestions": "[{\"title\": \"Two Sum\", \"titleSlug\": \"two-sum\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"3Sum\", \"titleSlug\": \"3sum\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"4Sum II\", \"titleSlug\": \"4sum-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+}

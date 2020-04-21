@@ -7,17 +7,19 @@ npx leetcode-problems-crawler  -l python3 -r 1
 
 此时会在当前文件夹下生成如下目录：
 ```
-001.two-sum.easy
+001.two-sum
 ├── README.md
 └── solution.py
+└── information.py
 ```
 
 ### 编写测试代码
 我实现了一个比较简单的代码执行器，首先将文件 `leetcode/utility/test_runner.py` 复制到文件夹中，并创建 `test.py` 文件，此时的目录信息为：
 ```
-001.two-sum.easy
+001.two-sum
 ├── README.md
 └── solution.py
+└── information.py
 ├── test_runner.py
 ├── test.py
 ```

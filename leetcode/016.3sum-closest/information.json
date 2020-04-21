@@ -1,0 +1,7 @@
+{
+    "tags": [
+        "N Sum"
+    ],
+    "difficulty": "medium",
+    "similarQuestions": "[{\"title\": \"3Sum\", \"titleSlug\": \"3sum\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"3Sum Smaller\", \"titleSlug\": \"3sum-smaller\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+}
