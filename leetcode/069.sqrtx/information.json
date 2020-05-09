@@ -1,0 +1,5 @@
+{
+    "tags": ["二分法", "巴比伦平方根"],
+    "difficulty": "easy",
+    "similarQuestions": "[{\"title\": \"Pow(x, n)\", \"titleSlug\": \"powx-n\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Valid Perfect Square\", \"titleSlug\": \"valid-perfect-square\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]"
+}

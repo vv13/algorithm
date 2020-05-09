@@ -22,8 +22,7 @@ def genLineStr(s: str):
         information_file.close()
 
     links = [
-        '[答案]({0})'.format(os.path.join(source_dir + '/solution.py')),
-        '[原题]({0})'.format(LEETCODE_URL + name)
+        '[答案]({0})'.format(os.path.join(source_dir + '/solution.py'))
     ]
     if os.path.exists(source_dir + 'DRAFT.md'):
         links.append('[解题思路]({0})'.format(source_dir + '/DRAFT.md'))
