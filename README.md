@@ -43,8 +43,9 @@
 |136|[single-number](./leetcode/136.single-number/)|easy|异或运算|[答案](./leetcode/136.single-number//solution.py)||95.55%|
 |141|[linked-list-cycle](./leetcode/141.linked-list-cycle/)|easy||[答案](./leetcode/141.linked-list-cycle//solution.py)||86%|
 |202|[happy-number](./leetcode/202.happy-number/)|easy||[答案](./leetcode/202.happy-number//solution.py)  [解题思路](./leetcode/202.happy-number//DRAFT.md)|||
-|206|[reverse-linked-list](./leetcode/206.reverse-linked-list/)|easy||[答案](./leetcode/206.reverse-linked-list//solution.py)|||
+|206|[reverse-linked-list](./leetcode/206.reverse-linked-list/)|easy||[答案](./leetcode/206.reverse-linked-list//solution.py)||61.23%|
 |300|[longest-increasing-subsequence](./leetcode/300.longest-increasing-subsequence/)|medium||[答案](./leetcode/300.longest-increasing-subsequence//solution.py)||30.35%|
+|443|[string-compression](./leetcode/443.string-compression/)|medium||[答案](./leetcode/443.string-compression//solution.py)|||
 |454|[4sum-ii](./leetcode/454.4sum-ii/)|medium|N Sum|[答案](./leetcode/454.4sum-ii//solution.py)|||
 |771|[jewels-and-stones](./leetcode/771.jewels-and-stones/)|easy|N Sum|[答案](./leetcode/771.jewels-and-stones//solution.py)||30.55%|
 |807|[max-increase-to-keep-city-skyline](./leetcode/807.max-increase-to-keep-city-skyline/)|medium|N Sum|[答案](./leetcode/807.max-increase-to-keep-city-skyline//solution.py)||97.58%|
