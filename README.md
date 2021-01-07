@@ -42,6 +42,7 @@
 |69|[sqrtx](./leetcode/069.sqrtx/)|easy|二分法, 巴比伦平方根|[答案](./leetcode/069.sqrtx//solution.py)|||
 |136|[single-number](./leetcode/136.single-number/)|easy|异或运算|[答案](./leetcode/136.single-number//solution.py)||95.55%|
 |141|[linked-list-cycle](./leetcode/141.linked-list-cycle/)|easy||[答案](./leetcode/141.linked-list-cycle//solution.py)||86%|
+|146|[lru-cache](./leetcode/146.lru-cache/)|medium||[答案](./leetcode/146.lru-cache//solution.py)|||
 |202|[happy-number](./leetcode/202.happy-number/)|easy||[答案](./leetcode/202.happy-number//solution.py)  [解题思路](./leetcode/202.happy-number//DRAFT.md)|||
 |206|[reverse-linked-list](./leetcode/206.reverse-linked-list/)|easy||[答案](./leetcode/206.reverse-linked-list//solution.py)||61.23%|
 |300|[longest-increasing-subsequence](./leetcode/300.longest-increasing-subsequence/)|medium||[答案](./leetcode/300.longest-increasing-subsequence//solution.py)||30.35%|

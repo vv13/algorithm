@@ -8,5 +8,5 @@ from typing import List
 
 
 if __name__ == "__main__":
-    inputs = []
+    inputs = [[[2, 7, 11, 15], 9]]
     testRunner(inputs, Solution)
