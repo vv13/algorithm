@@ -1,0 +1,11 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Sudoku Solver",
+            "titleSlug": "sudoku-solver",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
