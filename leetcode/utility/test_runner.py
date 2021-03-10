@@ -1,7 +1,7 @@
 from typing import List
 
 
-def testRunner(inputs: List[any], Solution, expects=[]):
+def testRunner(inputs: List[any], Solution):
     if not inputs:
         return
     for func_name, handler in Solution.__dict__.items():

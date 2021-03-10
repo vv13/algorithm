@@ -1,6 +1,26 @@
 from typing import List
 
 
+class Solution1:
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
+        rows = [{} for i in range(9)]
+        columns = [{} for i in range(9)]
+        boxes = [{} for i in range(9)]
+        for x in range(9):
+            for y in range(9):
+                num = board[x][y]
+                if num == '.':
+                    continue
+                box_index = x // 3 * 3 + y // 3
+
+                rows[x][num] = rows[x].get(num, 0) + 1
+                columns[y][num] = columns[y].get(num, 0) + 1
+                boxes[box_index][num] = boxes[box_index].get(num, 0) + 1
+                if rows[x][num] > 1 or columns[y][num] > 1 or boxes[box_index][num] > 1:
+                    return False
+        return True
+
+
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         for x in range(9):
@@ -27,24 +47,6 @@ class Solution:
                                 card.append(board[cardx][cardy])
                             elif board[cardx][cardy] != '.':
                                 return False
-        return True
-
-    def isValidSudoku1(self, board: List[List[str]]) -> bool:
-        rows = [{} for i in range(9)]
-        columns = [{} for i in range(9)]
-        boxes = [{} for i in range(9)]
-        for x in range(9):
-            for y in range(9):
-                num = board[x][y]
-                if num == '.':
-                    continue
-                box_index = x // 3 * 3 + y // 3
-
-                rows[x][num] = rows[x].get(num, 0) + 1
-                columns[y][num] = columns[y].get(num, 0) + 1
-                boxes[box_index][num] = boxes[box_index].get(num, 0) + 1
-                if rows[x][num] > 1 or columns[y][num] > 1 or boxes[box_index][num] > 1:
-                    return False
         return True
 
 

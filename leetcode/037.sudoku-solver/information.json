@@ -1,0 +1,17 @@
+{
+    "difficulty": "hard",
+    "similarQuestions": [
+        {
+            "title": "Valid Sudoku",
+            "titleSlug": "valid-sudoku",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Unique Paths III",
+            "titleSlug": "unique-paths-iii",
+            "difficulty": "Hard",
+            "translatedTitle": null
+        }
+    ]
+}
