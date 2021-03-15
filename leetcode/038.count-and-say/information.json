@@ -1,0 +1,17 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Encode and Decode Strings",
+            "titleSlug": "encode-and-decode-strings",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "String Compression",
+            "titleSlug": "string-compression",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}

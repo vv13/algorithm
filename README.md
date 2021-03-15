@@ -36,6 +36,9 @@
 |33|[search-in-rotated-sorted-array](./leetcode/033.search-in-rotated-sorted-array/)|medium|二分法|[答案](./leetcode/033.search-in-rotated-sorted-array//solution.py)  [解题思路](./leetcode/033.search-in-rotated-sorted-array//DRAFT.md)||65.84%|
 |34|[find-first-and-last-position-of-element-in-sorted-array](./leetcode/034.find-first-and-last-position-of-element-in-sorted-array/)|medium|二分法|[答案](./leetcode/034.find-first-and-last-position-of-element-in-sorted-array//solution.py)||33.12%|
 |35|[search-insert-position](./leetcode/035.search-insert-position/)|easy||[答案](./leetcode/035.search-insert-position//solution.py)||73.26%|
+|36|[valid-sudoku](./leetcode/036.valid-sudoku/)|medium||[答案](./leetcode/036.valid-sudoku//solution.py)|||
+|37|[sudoku-solver](./leetcode/037.sudoku-solver/)|hard||[答案](./leetcode/037.sudoku-solver//solution.py)|||
+|38|[count-and-say](./leetcode/038.count-and-say/)|medium||[答案](./leetcode/038.count-and-say//solution.py)|||
 |46|[permutations](./leetcode/046.permutations/)|medium||[答案](./leetcode/046.permutations//solution.py)|||
 |47|[permutations-ii](./leetcode/047.permutations-ii/)|medium||[答案](./leetcode/047.permutations-ii//solution.py)|||
 |53|[maximum-subarray](./leetcode/053.maximum-subarray/)|easy||[答案](./leetcode/053.maximum-subarray//solution.py)|||
