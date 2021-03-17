@@ -1,0 +1,41 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Letter Combinations of a Phone Number",
+            "titleSlug": "letter-combinations-of-a-phone-number",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Combination Sum II",
+            "titleSlug": "combination-sum-ii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Combinations",
+            "titleSlug": "combinations",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Combination Sum III",
+            "titleSlug": "combination-sum-iii",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Factor Combinations",
+            "titleSlug": "factor-combinations",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        },
+        {
+            "title": "Combination Sum IV",
+            "titleSlug": "combination-sum-iv",
+            "difficulty": "Medium",
+            "translatedTitle": null
+        }
+    ]
+}

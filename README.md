@@ -39,10 +39,12 @@
 |36|[valid-sudoku](./leetcode/036.valid-sudoku/)|medium||[答案](./leetcode/036.valid-sudoku//solution.py)|||
 |37|[sudoku-solver](./leetcode/037.sudoku-solver/)|hard||[答案](./leetcode/037.sudoku-solver//solution.py)|||
 |38|[count-and-say](./leetcode/038.count-and-say/)|medium||[答案](./leetcode/038.count-and-say//solution.py)|||
+|39|[combination-sum](./leetcode/039.combination-sum/)|medium||[答案](./leetcode/039.combination-sum//solution.py)|||
 |46|[permutations](./leetcode/046.permutations/)|medium||[答案](./leetcode/046.permutations//solution.py)|||
 |47|[permutations-ii](./leetcode/047.permutations-ii/)|medium||[答案](./leetcode/047.permutations-ii//solution.py)|||
 |53|[maximum-subarray](./leetcode/053.maximum-subarray/)|easy||[答案](./leetcode/053.maximum-subarray//solution.py)|||
 |69|[sqrtx](./leetcode/069.sqrtx/)|easy|二分法, 巴比伦平方根|[答案](./leetcode/069.sqrtx//solution.py)|||
+|102|[binary-tree-level-order-traversal](./leetcode/102.binary-tree-level-order-traversal/)|medium||[答案](./leetcode/102.binary-tree-level-order-traversal//solution.py)|||
 |136|[single-number](./leetcode/136.single-number/)|easy|异或运算|[答案](./leetcode/136.single-number//solution.py)||95.55%|
 |141|[linked-list-cycle](./leetcode/141.linked-list-cycle/)|easy||[答案](./leetcode/141.linked-list-cycle//solution.py)||86%|
 |146|[lru-cache](./leetcode/146.lru-cache/)|medium||[答案](./leetcode/146.lru-cache//solution.py)|||
