@@ -14,18 +14,21 @@ def genLineStr(s: str):
     if os.path.exists(source_dir + 'information.json'):
         information_file = open(source_dir + '/information.json', 'r')
         information_data = json.load(information_file)
+        info['difficulty'] = information_data.get('difficulty', '')
+        information_file.close()
+
+    if os.path.exists(source_dir + 'data.json'):
+        data_file = open(source_dir + '/data.json', 'r')
+        information_data = json.load(data_file)
         info['tags'] = ', '.join(information_data.get('tags', []))
         info['mark'] = information_data.get('mark', '')
-        info['difficulty'] = information_data.get('difficulty', '')
         rank = information_data.get('rank', '')
         info['rank'] = str(rank) + '%' if rank else ''
-        information_file.close()
+        data_file.close()
 
     links = [
         '[答案]({0})'.format(os.path.join(source_dir + '/solution.py'))
     ]
-    if os.path.exists(source_dir + 'DRAFT.md'):
-        links.append('[解题思路]({0})'.format(source_dir + '/DRAFT.md'))
     info['links'] = '  '.join(links)
 
     return '|{number}|{link_name}|{difficulty}|{tags}|{links}|{mark}|{rank}|'.format(**info)

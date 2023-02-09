@@ -1,5 +1,18 @@
 {
     "mark": "待优化",
     "difficulty": "hard",
-    "similarQuestions": "[{\"title\": \"Merge Two Sorted Lists\", \"titleSlug\": \"merge-two-sorted-lists\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Ugly Number II\", \"titleSlug\": \"ugly-number-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Merge Two Sorted Lists",
+            "titleSlug": "merge-two-sorted-lists",
+            "difficulty": "Easy",
+            "translatedTitle": "合并两个有序链表"
+        },
+        {
+            "title": "Ugly Number II",
+            "titleSlug": "ugly-number-ii",
+            "difficulty": "Medium",
+            "translatedTitle": "丑数 II"
+        }
+    ]
 }

@@ -1,4 +1,29 @@
 {
     "difficulty": "medium",
-    "similarQuestions": "[{\"title\": \"Next Permutation\", \"titleSlug\": \"next-permutation\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Permutations II\", \"titleSlug\": \"permutations-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Permutation Sequence\", \"titleSlug\": \"permutation-sequence\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Combinations\", \"titleSlug\": \"combinations\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Next Permutation",
+            "titleSlug": "next-permutation",
+            "difficulty": "Medium",
+            "translatedTitle": "下一个排列"
+        },
+        {
+            "title": "Permutations II",
+            "titleSlug": "permutations-ii",
+            "difficulty": "Medium",
+            "translatedTitle": "全排列 II"
+        },
+        {
+            "title": "Permutation Sequence",
+            "titleSlug": "permutation-sequence",
+            "difficulty": "Hard",
+            "translatedTitle": "排列序列"
+        },
+        {
+            "title": "Combinations",
+            "titleSlug": "combinations",
+            "difficulty": "Medium",
+            "translatedTitle": "组合"
+        }
+    ]
 }

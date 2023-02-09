@@ -1,8 +1,11 @@
 {
-    "rank": 33.12,
-    "tags": [
-        "二分法"
-    ],
     "difficulty": "medium",
-    "similarQuestions": "[{\"title\": \"First Bad Version\", \"titleSlug\": \"first-bad-version\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "First Bad Version",
+            "titleSlug": "first-bad-version",
+            "difficulty": "Easy",
+            "translatedTitle": "第一个错误的版本"
+        }
+    ]
 }

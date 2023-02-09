@@ -5,43 +5,43 @@
             "title": "Binary Tree Zigzag Level Order Traversal",
             "titleSlug": "binary-tree-zigzag-level-order-traversal",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "二叉树的锯齿形层序遍历"
         },
         {
             "title": "Binary Tree Level Order Traversal II",
             "titleSlug": "binary-tree-level-order-traversal-ii",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "二叉树的层序遍历 II"
         },
         {
             "title": "Minimum Depth of Binary Tree",
             "titleSlug": "minimum-depth-of-binary-tree",
             "difficulty": "Easy",
-            "translatedTitle": null
+            "translatedTitle": "二叉树的最小深度"
         },
         {
             "title": "Binary Tree Vertical Order Traversal",
             "titleSlug": "binary-tree-vertical-order-traversal",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "二叉树的垂直遍历"
         },
         {
             "title": "Average of Levels in Binary Tree",
             "titleSlug": "average-of-levels-in-binary-tree",
             "difficulty": "Easy",
-            "translatedTitle": null
+            "translatedTitle": "二叉树的层平均值"
         },
         {
             "title": "N-ary Tree Level Order Traversal",
             "titleSlug": "n-ary-tree-level-order-traversal",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "N 叉树的层序遍历"
         },
         {
             "title": "Cousins in Binary Tree",
             "titleSlug": "cousins-in-binary-tree",
             "difficulty": "Easy",
-            "translatedTitle": null
+            "translatedTitle": "二叉树的堂兄弟节点"
         }
     ]
 }

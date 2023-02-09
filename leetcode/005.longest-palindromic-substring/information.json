@@ -1,4 +1,35 @@
 {
     "difficulty": "medium",
-    "similarQuestions": "[{\"title\": \"Shortest Palindrome\", \"titleSlug\": \"shortest-palindrome\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Palindrome Permutation\", \"titleSlug\": \"palindrome-permutation\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Palindrome Pairs\", \"titleSlug\": \"palindrome-pairs\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Longest Palindromic Subsequence\", \"titleSlug\": \"longest-palindromic-subsequence\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Palindromic Substrings\", \"titleSlug\": \"palindromic-substrings\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Shortest Palindrome",
+            "titleSlug": "shortest-palindrome",
+            "difficulty": "Hard",
+            "translatedTitle": "最短回文串"
+        },
+        {
+            "title": "Palindrome Permutation",
+            "titleSlug": "palindrome-permutation",
+            "difficulty": "Easy",
+            "translatedTitle": "回文排列"
+        },
+        {
+            "title": "Palindrome Pairs",
+            "titleSlug": "palindrome-pairs",
+            "difficulty": "Hard",
+            "translatedTitle": "回文对"
+        },
+        {
+            "title": "Longest Palindromic Subsequence",
+            "titleSlug": "longest-palindromic-subsequence",
+            "difficulty": "Medium",
+            "translatedTitle": "最长回文子序列"
+        },
+        {
+            "title": "Palindromic Substrings",
+            "titleSlug": "palindromic-substrings",
+            "difficulty": "Medium",
+            "translatedTitle": "回文子串"
+        }
+    ]
 }

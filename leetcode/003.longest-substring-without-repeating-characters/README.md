@@ -1,33 +1,38 @@
-## [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-<p>Given a string, find the length of the <b>longest substring</b> without repeating characters.</p>
+## [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+<p>给定一个字符串 <code>s</code> ，请你找出其中不含有重复字符的&nbsp;<strong>最长子串&nbsp;</strong>的长度。</p>
 
-<div>
-<p><strong>Example 1:</strong></p>
+<p>&nbsp;</p>
 
-<pre>
-<strong>Input: </strong><span id="example-input-1-1">&quot;abcabcbb&quot;</span>
-<strong>Output: </strong><span id="example-output-1">3 
-<strong>Explanation:</strong></span> The answer is <code>&quot;abc&quot;</code>, with the length of 3. 
-</pre>
-
-<div>
-<p><strong>Example 2:</strong></p>
+<p><strong>示例&nbsp;1:</strong></p>
 
 <pre>
-<strong>Input: </strong><span id="example-input-2-1">&quot;bbbbb&quot;</span>
-<strong>Output: </strong><span id="example-output-2">1
-</span><span id="example-output-1"><strong>Explanation: </strong>T</span>he answer is <code>&quot;b&quot;</code>, with the length of 1.
+<strong>输入: </strong>s = "abcabcbb"
+<strong>输出: </strong>3 
+<strong>解释:</strong> 因为无重复字符的最长子串是 <code>"abc"，所以其</code>长度为 3。
 </pre>
 
-<div>
-<p><strong>Example 3:</strong></p>
+<p><strong>示例 2:</strong></p>
 
 <pre>
-<strong>Input: </strong><span id="example-input-3-1">&quot;pwwkew&quot;</span>
-<strong>Output: </strong><span id="example-output-3">3
-</span><span id="example-output-1"><strong>Explanation: </strong></span>The answer is <code>&quot;wke&quot;</code>, with the length of 3. 
-             Note that the answer must be a <b>substring</b>, <code>&quot;pwke&quot;</code> is a <i>subsequence</i> and not a substring.
+<strong>输入: </strong>s = "bbbbb"
+<strong>输出: </strong>1
+<strong>解释: </strong>因为无重复字符的最长子串是 <code>"b"</code>，所以其长度为 1。
 </pre>
-</div>
-</div>
-</div>
+
+<p><strong>示例 3:</strong></p>
+
+<pre>
+<strong>输入: </strong>s = "pwwkew"
+<strong>输出: </strong>3
+<strong>解释: </strong>因为无重复字符的最长子串是&nbsp;<code>"wke"</code>，所以其长度为 3。
+&nbsp;    请注意，你的答案必须是 <strong>子串 </strong>的长度，<code>"pwke"</code>&nbsp;是一个<em>子序列，</em>不是子串。
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>0 &lt;= s.length &lt;= 5 * 10<sup>4</sup></code></li>
+	<li><code>s</code>&nbsp;由英文字母、数字、符号和空格组成</li>
+</ul>

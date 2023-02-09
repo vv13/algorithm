@@ -1,25 +1,34 @@
-## [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
-<p>Implement <code>int sqrt(int x)</code>.</p>
+## [69. x 的平方根 ](https://leetcode-cn.com/problems/sqrtx/)
+<p>给你一个非负整数 <code>x</code> ，计算并返回&nbsp;<code>x</code>&nbsp;的 <strong>算术平方根</strong> 。</p>
 
-<p>Compute and return the square root of <em>x</em>, where&nbsp;<em>x</em>&nbsp;is guaranteed to be a non-negative integer.</p>
+<p>由于返回类型是整数，结果只保留 <strong>整数部分 </strong>，小数部分将被 <strong>舍去 。</strong></p>
 
-<p>Since the return type&nbsp;is an integer, the decimal digits are truncated and only the integer part of the result&nbsp;is returned.</p>
+<p><strong>注意：</strong>不允许使用任何内置指数函数和算符，例如 <code>pow(x, 0.5)</code> 或者 <code>x ** 0.5</code> 。</p>
 
-<p><strong>Example 1:</strong></p>
+<p>&nbsp;</p>
 
-<pre>
-<strong>Input:</strong> 4
-<strong>Output:</strong> 2
-</pre>
-
-<p><strong>Example 2:</strong></p>
+<p><strong>示例 1：</strong></p>
 
 <pre>
-<strong>Input:</strong> 8
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> The square root of 8 is 2.82842..., and since 
-&nbsp;            the decimal part is truncated, 2 is returned.
+<strong>输入：</strong>x = 4
+<strong>输出：</strong>2
 </pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>x = 8
+<strong>输出：</strong>2
+<strong>解释：</strong>8 的算术平方根是 2.82842..., 由于返回类型是整数，小数部分将被舍去。
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>0 &lt;= x &lt;= 2<sup>31</sup> - 1</code></li>
+</ul>
 
 
 ## Hints

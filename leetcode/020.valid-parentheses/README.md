@@ -1,76 +1,48 @@
-## [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-<p>Given a string containing just the characters <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code>, <code>&#39;{&#39;</code>, <code>&#39;}&#39;</code>, <code>&#39;[&#39;</code> and <code>&#39;]&#39;</code>, determine if the input string is valid.</p>
+## [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+<p>给定一个只包括 <code>'('</code>，<code>')'</code>，<code>'{'</code>，<code>'}'</code>，<code>'['</code>，<code>']'</code>&nbsp;的字符串 <code>s</code> ，判断字符串是否有效。</p>
 
-<p>An input string is valid if:</p>
+<p>有效字符串需满足：</p>
 
 <ol>
-	<li>Open brackets must be closed by the same type of brackets.</li>
-	<li>Open brackets must be closed in the correct order.</li>
+	<li>左括号必须用相同类型的右括号闭合。</li>
+	<li>左括号必须以正确的顺序闭合。</li>
+	<li>每个右括号都有一个对应的相同类型的左括号。</li>
 </ol>
 
-<p>Note that an empty string is&nbsp;also considered valid.</p>
+<p>&nbsp;</p>
 
-<p><strong>Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> &quot;()&quot;
-<strong>Output:</strong> true
-</pre>
-
-<p><strong>Example 2:</strong></p>
+<p><strong>示例 1：</strong></p>
 
 <pre>
-<strong>Input:</strong> &quot;()[]{}&quot;
-<strong>Output:</strong> true
+<strong>输入：</strong>s = "()"
+<strong>输出：</strong>true
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong>示例&nbsp;2：</strong></p>
 
 <pre>
-<strong>Input:</strong> &quot;(]&quot;
-<strong>Output:</strong> false
+<strong>输入：</strong>s = "()[]{}"
+<strong>输出：</strong>true
 </pre>
 
-<p><strong>Example 4:</strong></p>
+<p><strong>示例&nbsp;3：</strong></p>
 
 <pre>
-<strong>Input:</strong> &quot;([)]&quot;
-<strong>Output:</strong> false
+<strong>输入：</strong>s = "(]"
+<strong>输出：</strong>false
 </pre>
 
-<p><strong>Example 5:</strong></p>
+<p>&nbsp;</p>
 
-<pre>
-<strong>Input:</strong> &quot;{[]}&quot;
-<strong>Output:</strong> true
-</pre>
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>s</code> 仅由括号 <code>'()[]{}'</code> 组成</li>
+</ul>
 
 
 ## Hints
-1. An interesting property about a valid parenthesis expression is that a sub-expression of a valid expression should also be a valid expression. (Not every sub-expression) e.g.
-
-<pre>
-{ { } [ ] [ [ [ ] ] ] } is VALID expression
-          [ [ [ ] ] ]    is VALID sub-expression
-  { } [ ]                is VALID sub-expression
-</pre>
-
-Can we exploit this recursive structure somehow?
-2. What if whenever we encounter a matching pair of parenthesis in the expression, we simply remove it from the expression? This would keep on shortening the expression. e.g.
-
-<pre>
-{ { ( { } ) } }
-      |_|
-
-{ { (      ) } }
-    |______|
-
-{ {          } }
-  |__________|
-
-{                }
-|________________|
-
-VALID EXPRESSION!
-</pre>
-3. The <b>stack</b> data structure can come in handy here in representing this recursive structure of the problem. We can't really process this from the inside out because we don't have an idea about the overall structure. But, the stack can help us process this recursively i.e. from outside to inwards.
+1. Use a stack of characters.
+2. When you encounter an opening bracket, push it to the top of the stack.
+3. When you encounter a closing bracket, check if the top of the stack was the opening for it. If yes, pop it from the stack. Otherwise, return false.

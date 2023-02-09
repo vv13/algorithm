@@ -1,4 +1,29 @@
 {
     "difficulty": "easy",
-    "similarQuestions": "[{\"title\": \"Generate Parentheses\", \"titleSlug\": \"generate-parentheses\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Longest Valid Parentheses\", \"titleSlug\": \"longest-valid-parentheses\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Remove Invalid Parentheses\", \"titleSlug\": \"remove-invalid-parentheses\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Check If Word Is Valid After Substitutions\", \"titleSlug\": \"check-if-word-is-valid-after-substitutions\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Generate Parentheses",
+            "titleSlug": "generate-parentheses",
+            "difficulty": "Medium",
+            "translatedTitle": "括号生成"
+        },
+        {
+            "title": "Longest Valid Parentheses",
+            "titleSlug": "longest-valid-parentheses",
+            "difficulty": "Hard",
+            "translatedTitle": "最长有效括号"
+        },
+        {
+            "title": "Remove Invalid Parentheses",
+            "titleSlug": "remove-invalid-parentheses",
+            "difficulty": "Hard",
+            "translatedTitle": "删除无效的括号"
+        },
+        {
+            "title": "Check If Word Is Valid After Substitutions",
+            "titleSlug": "check-if-word-is-valid-after-substitutions",
+            "difficulty": "Medium",
+            "translatedTitle": "检查替换后的词是否有效"
+        }
+    ]
 }

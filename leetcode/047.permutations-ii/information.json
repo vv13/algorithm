@@ -1,5 +1,30 @@
 {
     "mark": "",
     "difficulty": "medium",
-    "similarQuestions": "[{\"title\": \"Next Permutation\", \"titleSlug\": \"next-permutation\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Permutations\", \"titleSlug\": \"permutations\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Palindrome Permutation II\", \"titleSlug\": \"palindrome-permutation-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Number of Squareful Arrays\", \"titleSlug\": \"number-of-squareful-arrays\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Next Permutation",
+            "titleSlug": "next-permutation",
+            "difficulty": "Medium",
+            "translatedTitle": "下一个排列"
+        },
+        {
+            "title": "Permutations",
+            "titleSlug": "permutations",
+            "difficulty": "Medium",
+            "translatedTitle": "全排列"
+        },
+        {
+            "title": "Palindrome Permutation II",
+            "titleSlug": "palindrome-permutation-ii",
+            "difficulty": "Medium",
+            "translatedTitle": "回文排列 II"
+        },
+        {
+            "title": "Number of Squareful Arrays",
+            "titleSlug": "number-of-squareful-arrays",
+            "difficulty": "Hard",
+            "translatedTitle": "正方形数组的数目"
+        }
+    ]
 }

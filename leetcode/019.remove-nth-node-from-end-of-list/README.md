@@ -1,21 +1,43 @@
-## [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
-<p>Given a linked list, remove the <em>n</em>-th node from the end of list and return its head.</p>
+## [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+<p>给你一个链表，删除链表的倒数第&nbsp;<code>n</code><em>&nbsp;</em>个结点，并且返回链表的头结点。</p>
 
-<p><strong>Example:</strong></p>
+<p>&nbsp;</p>
 
+<p><strong>示例 1：</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg" style="width: 542px; height: 222px;" />
 <pre>
-Given linked list: <strong>1-&gt;2-&gt;3-&gt;4-&gt;5</strong>, and <strong><em>n</em> = 2</strong>.
-
-After removing the second node from the end, the linked list becomes <strong>1-&gt;2-&gt;3-&gt;5</strong>.
+<strong>输入：</strong>head = [1,2,3,4,5], n = 2
+<strong>输出：</strong>[1,2,3,5]
 </pre>
 
-<p><strong>Note:</strong></p>
+<p><strong>示例 2：</strong></p>
 
-<p>Given <em>n</em> will always be valid.</p>
+<pre>
+<strong>输入：</strong>head = [1], n = 1
+<strong>输出：</strong>[]
+</pre>
 
-<p><strong>Follow up:</strong></p>
+<p><strong>示例 3：</strong></p>
 
-<p>Could you do this in one pass?</p>
+<pre>
+<strong>输入：</strong>head = [1,2], n = 1
+<strong>输出：</strong>[1]
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li>链表中结点的数目为 <code>sz</code></li>
+	<li><code>1 &lt;= sz &lt;= 30</code></li>
+	<li><code>0 &lt;= Node.val &lt;= 100</code></li>
+	<li><code>1 &lt;= n &lt;= sz</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>进阶：</strong>你能尝试使用一趟扫描实现吗？</p>
 
 
 ## Hints

@@ -1,14 +1,41 @@
-## [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-<p>Given an integer array <code>nums</code>, find the contiguous subarray&nbsp;(containing at least one number) which has the largest sum and return its sum.</p>
+## [53. 最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/)
+<p>给你一个整数数组 <code>nums</code> ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。</p>
 
-<p><strong>Example:</strong></p>
+<p><strong>子数组 </strong>是数组中的一个连续部分。</p>
+
+<p>&nbsp;</p>
+
+<p><strong>示例 1：</strong></p>
 
 <pre>
-<strong>Input:</strong> [-2,1,-3,4,-1,2,1,-5,4],
-<strong>Output:</strong> 6
-<strong>Explanation:</strong>&nbsp;[4,-1,2,1] has the largest sum = 6.
+<strong>输入：</strong>nums = [-2,1,-3,4,-1,2,1,-5,4]
+<strong>输出：</strong>6
+<strong>解释：</strong>连续子数组&nbsp;[4,-1,2,1] 的和最大，为&nbsp;6 。
 </pre>
 
-<p><strong>Follow up:</strong></p>
+<p><strong>示例 2：</strong></p>
 
-<p>If you have figured out the O(<em>n</em>) solution, try coding another solution using the divide and conquer approach, which is more subtle.</p>
+<pre>
+<strong>输入：</strong>nums = [1]
+<strong>输出：</strong>1
+</pre>
+
+<p><strong>示例 3：</strong></p>
+
+<pre>
+<strong>输入：</strong>nums = [5,4,-1,7,8]
+<strong>输出：</strong>23
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>进阶：</strong>如果你已经实现复杂度为 <code>O(n)</code> 的解法，尝试使用更为精妙的 <strong>分治法</strong> 求解。</p>

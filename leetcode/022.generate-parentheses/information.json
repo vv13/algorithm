@@ -3,5 +3,18 @@
         "回溯法"
     ],
     "difficulty": "medium",
-    "similarQuestions": "[{\"title\": \"Letter Combinations of a Phone Number\", \"titleSlug\": \"letter-combinations-of-a-phone-number\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Valid Parentheses\", \"titleSlug\": \"valid-parentheses\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Letter Combinations of a Phone Number",
+            "titleSlug": "letter-combinations-of-a-phone-number",
+            "difficulty": "Medium",
+            "translatedTitle": "电话号码的字母组合"
+        },
+        {
+            "title": "Valid Parentheses",
+            "titleSlug": "valid-parentheses",
+            "difficulty": "Easy",
+            "translatedTitle": "有效的括号"
+        }
+    ]
 }

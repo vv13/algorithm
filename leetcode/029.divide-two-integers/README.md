@@ -1,30 +1,33 @@
-## [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
-<p>Given two integers <code>dividend</code> and <code>divisor</code>, divide two integers without using multiplication, division and mod operator.</p>
+## [29. 两数相除](https://leetcode-cn.com/problems/divide-two-integers/)
+<p>给你两个整数，被除数&nbsp;<code>dividend</code>&nbsp;和除数&nbsp;<code>divisor</code>。将两数相除，要求 <strong>不使用</strong> 乘法、除法和取余运算。</p>
 
-<p>Return the quotient after dividing <code>dividend</code> by <code>divisor</code>.</p>
+<p>整数除法应该向零截断，也就是截去（<code>truncate</code>）其小数部分。例如，<code>8.345</code> 将被截断为 <code>8</code> ，<code>-2.7335</code> 将被截断至 <code>-2</code> 。</p>
 
-<p>The integer division should truncate toward zero, which means losing its fractional part. For example, <code>truncate(8.345) = 8</code> and <code>truncate(-2.7335) = -2</code>.</p>
+<p>返回被除数&nbsp;<code>dividend</code>&nbsp;除以除数&nbsp;<code>divisor</code>&nbsp;得到的 <strong>商</strong> 。</p>
 
-<p><strong>Example 1:</strong></p>
+<p><strong>注意：</strong>假设我们的环境只能存储 <strong>32 位</strong> 有符号整数，其数值范围是 <code>[−2<sup>31</sup>,&nbsp; 2<sup>31&nbsp;</sup>− 1]</code> 。本题中，如果商 <strong>严格大于</strong> <code>2<sup>31&nbsp;</sup>− 1</code> ，则返回 <code>2<sup>31&nbsp;</sup>− 1</code> ；如果商 <strong>严格小于</strong> <code>-2<sup>31</sup></code> ，则返回 <code>-2<sup>31</sup></code><sup> </sup>。</p>
 
-<pre>
-<strong>Input:</strong> dividend = 10, divisor = 3
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> 10/3 = truncate(3.33333..) = 3.
-</pre>
+<p>&nbsp;</p>
 
-<p><strong>Example 2:</strong></p>
+<p><strong>示例&nbsp;1:</strong></p>
 
 <pre>
-<strong>Input:</strong> dividend = 7, divisor = -3
-<strong>Output:</strong> -2
-<strong>Explanation:</strong> 7/-3 = truncate(-2.33333..) = -2.
-</pre>
+<strong>输入:</strong> dividend = 10, divisor = 3
+<strong>输出:</strong> 3
+<strong>解释: </strong>10/3 = 3.33333.. ，向零截断后得到 3 。</pre>
 
-<p><strong>Note:</strong></p>
+<p><strong>示例&nbsp;2:</strong></p>
+
+<pre>
+<strong>输入:</strong> dividend = 7, divisor = -3
+<strong>输出:</strong> -2
+<strong>解释:</strong> 7/-3 = -2.33333.. ，向零截断后得到 -2 。</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
 
 <ul>
-	<li>Both dividend and divisor&nbsp;will be&nbsp;32-bit&nbsp;signed integers.</li>
-	<li>The divisor will never be 0.</li>
-	<li>Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [&minus;2<sup>31</sup>, &nbsp;2<sup>31</sup> &minus; 1]. For the purpose of this problem, assume that your function <strong>returns 2<sup>31</sup> &minus; 1 when the division result&nbsp;overflows</strong>.</li>
+	<li><code>-2<sup>31</sup> &lt;= dividend, divisor &lt;= 2<sup>31</sup> - 1</code></li>
+	<li><code>divisor != 0</code></li>
 </ul>

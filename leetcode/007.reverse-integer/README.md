@@ -1,26 +1,43 @@
-## [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
-<p>Given a 32-bit signed integer, reverse digits of an integer.</p>
+## [7. 整数反转](https://leetcode-cn.com/problems/reverse-integer/)
+<p>给你一个 32 位的有符号整数 <code>x</code> ，返回将 <code>x</code> 中的数字部分反转后的结果。</p>
 
-<p><strong>Example 1:</strong></p>
+<p>如果反转后整数超过 32 位的有符号整数的范围 <code>[−2<sup>31</sup>,  2<sup>31 </sup>− 1]</code> ，就返回 0。</p>
+<strong>假设环境不允许存储 64 位整数（有符号或无符号）。</strong>
 
-<pre>
-<strong>Input:</strong> 123
-<strong>Output:</strong> 321
-</pre>
+<p> </p>
 
-<p><strong>Example 2:</strong></p>
+<p><strong>示例 1：</strong></p>
 
 <pre>
-<strong>Input:</strong> -123
-<strong>Output:</strong> -321
+<strong>输入：</strong>x = 123
+<strong>输出：</strong>321
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong>示例 2：</strong></p>
 
 <pre>
-<strong>Input:</strong> 120
-<strong>Output:</strong> 21
+<strong>输入：</strong>x = -123
+<strong>输出：</strong>-321
 </pre>
 
-<p><strong>Note:</strong><br />
-Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [&minus;2<sup>31</sup>,&nbsp; 2<sup>31&nbsp;</sup>&minus; 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.</p>
+<p><strong>示例 3：</strong></p>
+
+<pre>
+<strong>输入：</strong>x = 120
+<strong>输出：</strong>21
+</pre>
+
+<p><strong>示例 4：</strong></p>
+
+<pre>
+<strong>输入：</strong>x = 0
+<strong>输出：</strong>0
+</pre>
+
+<p> </p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>-2<sup>31</sup> <= x <= 2<sup>31</sup> - 1</code></li>
+</ul>

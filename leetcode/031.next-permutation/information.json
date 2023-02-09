@@ -1,5 +1,29 @@
 {
-    "rank": 99.45,
     "difficulty": "medium",
-    "similarQuestions": "[{\"title\": \"Permutations\", \"titleSlug\": \"permutations\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Permutations II\", \"titleSlug\": \"permutations-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Permutation Sequence\", \"titleSlug\": \"permutation-sequence\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Palindrome Permutation II\", \"titleSlug\": \"palindrome-permutation-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Permutations",
+            "titleSlug": "permutations",
+            "difficulty": "Medium",
+            "translatedTitle": "全排列"
+        },
+        {
+            "title": "Permutations II",
+            "titleSlug": "permutations-ii",
+            "difficulty": "Medium",
+            "translatedTitle": "全排列 II"
+        },
+        {
+            "title": "Permutation Sequence",
+            "titleSlug": "permutation-sequence",
+            "difficulty": "Hard",
+            "translatedTitle": "排列序列"
+        },
+        {
+            "title": "Palindrome Permutation II",
+            "titleSlug": "palindrome-permutation-ii",
+            "difficulty": "Medium",
+            "translatedTitle": "回文排列 II"
+        }
+    ]
 }

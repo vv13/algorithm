@@ -1,5 +1,11 @@
 {
-    "rank": 73.13,
     "difficulty": "hard",
-    "similarQuestions": "[{\"title\": \"Minimum Window Substring\", \"titleSlug\": \"minimum-window-substring\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Minimum Window Substring",
+            "titleSlug": "minimum-window-substring",
+            "difficulty": "Hard",
+            "translatedTitle": "最小覆盖子串"
+        }
+    ]
 }

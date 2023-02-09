@@ -3,5 +3,30 @@
         "N Sum"
     ],
     "difficulty": "medium",
-    "similarQuestions": "[{\"title\": \"Two Sum\", \"titleSlug\": \"two-sum\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"3Sum Closest\", \"titleSlug\": \"3sum-closest\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"4Sum\", \"titleSlug\": \"4sum\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"3Sum Smaller\", \"titleSlug\": \"3sum-smaller\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Two Sum",
+            "titleSlug": "two-sum",
+            "difficulty": "Easy",
+            "translatedTitle": "两数之和"
+        },
+        {
+            "title": "3Sum Closest",
+            "titleSlug": "3sum-closest",
+            "difficulty": "Medium",
+            "translatedTitle": "最接近的三数之和"
+        },
+        {
+            "title": "4Sum",
+            "titleSlug": "4sum",
+            "difficulty": "Medium",
+            "translatedTitle": "四数之和"
+        },
+        {
+            "title": "3Sum Smaller",
+            "titleSlug": "3sum-smaller",
+            "difficulty": "Medium",
+            "translatedTitle": "较小的三数之和"
+        }
+    ]
 }

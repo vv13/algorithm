@@ -1,4 +1,23 @@
 {
     "difficulty": "easy",
-    "similarQuestions": "[{\"title\": \"Remove Duplicates from Sorted Array\", \"titleSlug\": \"remove-duplicates-from-sorted-array\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Remove Linked List Elements\", \"titleSlug\": \"remove-linked-list-elements\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Move Zeroes\", \"titleSlug\": \"move-zeroes\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Remove Duplicates from Sorted Array",
+            "titleSlug": "remove-duplicates-from-sorted-array",
+            "difficulty": "Easy",
+            "translatedTitle": "删除有序数组中的重复项"
+        },
+        {
+            "title": "Remove Linked List Elements",
+            "titleSlug": "remove-linked-list-elements",
+            "difficulty": "Easy",
+            "translatedTitle": "移除链表元素"
+        },
+        {
+            "title": "Move Zeroes",
+            "titleSlug": "move-zeroes",
+            "difficulty": "Easy",
+            "translatedTitle": "移动零"
+        }
+    ]
 }

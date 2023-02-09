@@ -4,26 +4,20 @@
         {
             "title": "Count and Say",
             "titleSlug": "count-and-say",
-            "difficulty": "Easy",
-            "translatedTitle": null
+            "difficulty": "Medium",
+            "translatedTitle": "外观数列"
         },
         {
             "title": "Encode and Decode Strings",
             "titleSlug": "encode-and-decode-strings",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "字符串的编码与解码"
         },
         {
             "title": "Design Compressed String Iterator",
             "titleSlug": "design-compressed-string-iterator",
             "difficulty": "Easy",
-            "translatedTitle": null
-        },
-        {
-            "title": "Decompress Run-Length Encoded List",
-            "titleSlug": "decompress-run-length-encoded-list",
-            "difficulty": "Easy",
-            "translatedTitle": null
+            "translatedTitle": "迭代压缩字符串"
         }
     ]
 }

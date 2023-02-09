@@ -1,4 +1,23 @@
 {
     "difficulty": "medium",
-    "similarQuestions": "[{\"title\": \"Longest Substring with At Most Two Distinct Characters\", \"titleSlug\": \"longest-substring-with-at-most-two-distinct-characters\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Longest Substring with At Most K Distinct Characters\", \"titleSlug\": \"longest-substring-with-at-most-k-distinct-characters\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Subarrays with K Different Integers\", \"titleSlug\": \"subarrays-with-k-different-integers\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Longest Substring with At Most Two Distinct Characters",
+            "titleSlug": "longest-substring-with-at-most-two-distinct-characters",
+            "difficulty": "Medium",
+            "translatedTitle": "至多包含两个不同字符的最长子串"
+        },
+        {
+            "title": "Longest Substring with At Most K Distinct Characters",
+            "titleSlug": "longest-substring-with-at-most-k-distinct-characters",
+            "difficulty": "Medium",
+            "translatedTitle": "至多包含 K 个不同字符的最长子串"
+        },
+        {
+            "title": "Subarrays with K Different Integers",
+            "titleSlug": "subarrays-with-k-different-integers",
+            "difficulty": "Hard",
+            "translatedTitle": "K 个不同整数的子数组"
+        }
+    ]
 }

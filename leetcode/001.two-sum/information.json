@@ -1,7 +1,47 @@
 {
-    "tags": [
-        "N Sum"
-    ],
     "difficulty": "easy",
-    "similarQuestions": "[{\"title\": \"3Sum\", \"titleSlug\": \"3sum\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"4Sum\", \"titleSlug\": \"4sum\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Two Sum II - Input array is sorted\", \"titleSlug\": \"two-sum-ii-input-array-is-sorted\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Two Sum III - Data structure design\", \"titleSlug\": \"two-sum-iii-data-structure-design\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Subarray Sum Equals K\", \"titleSlug\": \"subarray-sum-equals-k\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Two Sum IV - Input is a BST\", \"titleSlug\": \"two-sum-iv-input-is-a-bst\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Two Sum Less Than K\", \"titleSlug\": \"two-sum-less-than-k\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "3Sum",
+            "titleSlug": "3sum",
+            "difficulty": "Medium",
+            "translatedTitle": "三数之和"
+        },
+        {
+            "title": "4Sum",
+            "titleSlug": "4sum",
+            "difficulty": "Medium",
+            "translatedTitle": "四数之和"
+        },
+        {
+            "title": "Two Sum II - Input Array Is Sorted",
+            "titleSlug": "two-sum-ii-input-array-is-sorted",
+            "difficulty": "Medium",
+            "translatedTitle": "两数之和 II - 输入有序数组"
+        },
+        {
+            "title": "Two Sum III - Data structure design",
+            "titleSlug": "two-sum-iii-data-structure-design",
+            "difficulty": "Easy",
+            "translatedTitle": "两数之和 III - 数据结构设计"
+        },
+        {
+            "title": "Subarray Sum Equals K",
+            "titleSlug": "subarray-sum-equals-k",
+            "difficulty": "Medium",
+            "translatedTitle": "和为 K 的子数组"
+        },
+        {
+            "title": "Two Sum IV - Input is a BST",
+            "titleSlug": "two-sum-iv-input-is-a-bst",
+            "difficulty": "Easy",
+            "translatedTitle": "两数之和 IV - 输入二叉搜索树"
+        },
+        {
+            "title": "Two Sum Less Than K",
+            "titleSlug": "two-sum-less-than-k",
+            "difficulty": "Easy",
+            "translatedTitle": "小于 K 的两数之和"
+        }
+    ]
 }

@@ -1,5 +1,17 @@
 {
     "difficulty": "easy",
-    "similarQuestions": "[{\"title\": \"Linked List Cycle II\", \"titleSlug\": \"linked-list-cycle-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Happy Number\", \"titleSlug\": \"happy-number\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
-    "rank": "86"
+    "similarQuestions": [
+        {
+            "title": "Linked List Cycle II",
+            "titleSlug": "linked-list-cycle-ii",
+            "difficulty": "Medium",
+            "translatedTitle": "环形链表 II"
+        },
+        {
+            "title": "Happy Number",
+            "titleSlug": "happy-number",
+            "difficulty": "Easy",
+            "translatedTitle": "快乐数"
+        }
+    ]
 }

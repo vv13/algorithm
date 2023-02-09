@@ -1,24 +1,37 @@
-## [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-<p>Given a string <strong>s</strong>, find the longest palindromic substring in <strong>s</strong>. You may assume that the maximum length of <strong>s</strong> is 1000.</p>
+## [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+<p>给你一个字符串 <code>s</code>，找到 <code>s</code> 中最长的回文子串。</p>
 
-<p><strong>Example 1:</strong></p>
+<p>如果字符串的反序与原始字符串相同，则该字符串称为回文字符串。</p>
 
-<pre>
-<strong>Input:</strong> &quot;babad&quot;
-<strong>Output:</strong> &quot;bab&quot;
-<strong>Note:</strong> &quot;aba&quot; is also a valid answer.
-</pre>
+<p>&nbsp;</p>
 
-<p><strong>Example 2:</strong></p>
+<p><strong>示例 1：</strong></p>
 
 <pre>
-<strong>Input:</strong> &quot;cbbd&quot;
-<strong>Output:</strong> &quot;bb&quot;
+<strong>输入：</strong>s = "babad"
+<strong>输出：</strong>"bab"
+<strong>解释：</strong>"aba" 同样是符合题意的答案。
 </pre>
+
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>s = "cbbd"
+<strong>输出：</strong>"bb"
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
+	<li><code>s</code> 仅由数字和英文字母组成</li>
+</ul>
 
 
 ## Hints
 1. How can we reuse a previously computed palindrome to compute a larger palindrome?
-2. If “aba” is a palindrome, is “xabax” and palindrome? Similarly is “xabay” a palindrome?
+2. If “aba” is a palindrome, is “xabax” a palindrome? Similarly is “xabay” a palindrome?
 3. Complexity based hint:</br>
 If we use brute-force and check whether for every start and end position a substring is a palindrome we have O(n^2) start - end pairs and O(n) palindromic checks. Can we reduce the time for palindromic checks to O(1) by reusing some previous computation.

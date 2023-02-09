@@ -1,5 +1,21 @@
 {
-    "tags": ["二分法", "巴比伦平方根"],
+    "tags": [
+        "二分法",
+        "巴比伦平方根"
+    ],
     "difficulty": "easy",
-    "similarQuestions": "[{\"title\": \"Pow(x, n)\", \"titleSlug\": \"powx-n\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Valid Perfect Square\", \"titleSlug\": \"valid-perfect-square\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Pow(x, n)",
+            "titleSlug": "powx-n",
+            "difficulty": "Medium",
+            "translatedTitle": "Pow(x, n)"
+        },
+        {
+            "title": "Valid Perfect Square",
+            "titleSlug": "valid-perfect-square",
+            "difficulty": "Easy",
+            "translatedTitle": "有效的完全平方数"
+        }
+    ]
 }

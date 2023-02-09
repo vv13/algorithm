@@ -1,5 +1,12 @@
 {
     "mark": "重构列表翻转部分逻辑",
     "difficulty": "hard",
-    "similarQuestions": "[{\"title\": \"Swap Nodes in Pairs\", \"titleSlug\": \"swap-nodes-in-pairs\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Swap Nodes in Pairs",
+            "titleSlug": "swap-nodes-in-pairs",
+            "difficulty": "Medium",
+            "translatedTitle": "两两交换链表中的节点"
+        }
+    ]
 }

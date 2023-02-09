@@ -1,5 +1,23 @@
 {
-    "rank": 61.23,
     "difficulty": "easy",
-    "similarQuestions": "[{\"title\": \"Reverse Linked List II\", \"titleSlug\": \"reverse-linked-list-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Binary Tree Upside Down\", \"titleSlug\": \"binary-tree-upside-down\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Palindrome Linked List\", \"titleSlug\": \"palindrome-linked-list\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Reverse Linked List II",
+            "titleSlug": "reverse-linked-list-ii",
+            "difficulty": "Medium",
+            "translatedTitle": "反转链表 II"
+        },
+        {
+            "title": "Binary Tree Upside Down",
+            "titleSlug": "binary-tree-upside-down",
+            "difficulty": "Medium",
+            "translatedTitle": "上下翻转二叉树"
+        },
+        {
+            "title": "Palindrome Linked List",
+            "titleSlug": "palindrome-linked-list",
+            "difficulty": "Easy",
+            "translatedTitle": "回文链表"
+        }
+    ]
 }

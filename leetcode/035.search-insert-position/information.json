@@ -1,9 +1,11 @@
 {
-    "mark": "",
-    "rank": 73.26,
-    "tag": [
-        "二分查找"
-    ],
     "difficulty": "easy",
-    "similarQuestions": "[{\"title\": \"First Bad Version\", \"titleSlug\": \"first-bad-version\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "First Bad Version",
+            "titleSlug": "first-bad-version",
+            "difficulty": "Easy",
+            "translatedTitle": "第一个错误的版本"
+        }
+    ]
 }

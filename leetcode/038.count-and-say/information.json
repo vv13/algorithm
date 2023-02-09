@@ -5,13 +5,13 @@
             "title": "Encode and Decode Strings",
             "titleSlug": "encode-and-decode-strings",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "字符串的编码与解码"
         },
         {
             "title": "String Compression",
             "titleSlug": "string-compression",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "压缩字符串"
         }
     ]
 }

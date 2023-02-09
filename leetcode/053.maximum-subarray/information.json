@@ -1,4 +1,29 @@
 {
-    "difficulty": "easy",
-    "similarQuestions": "[{\"title\": \"Best Time to Buy and Sell Stock\", \"titleSlug\": \"best-time-to-buy-and-sell-stock\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Maximum Product Subarray\", \"titleSlug\": \"maximum-product-subarray\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Degree of an Array\", \"titleSlug\": \"degree-of-an-array\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Longest Turbulent Subarray\", \"titleSlug\": \"longest-turbulent-subarray\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Best Time to Buy and Sell Stock",
+            "titleSlug": "best-time-to-buy-and-sell-stock",
+            "difficulty": "Easy",
+            "translatedTitle": "买卖股票的最佳时机"
+        },
+        {
+            "title": "Maximum Product Subarray",
+            "titleSlug": "maximum-product-subarray",
+            "difficulty": "Medium",
+            "translatedTitle": "乘积最大子数组"
+        },
+        {
+            "title": "Degree of an Array",
+            "titleSlug": "degree-of-an-array",
+            "difficulty": "Easy",
+            "translatedTitle": "数组的度"
+        },
+        {
+            "title": "Longest Turbulent Subarray",
+            "titleSlug": "longest-turbulent-subarray",
+            "difficulty": "Medium",
+            "translatedTitle": "最长湍流子数组"
+        }
+    ]
 }

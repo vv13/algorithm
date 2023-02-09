@@ -1,20 +1,41 @@
-## [136. Single Number](https://leetcode.com/problems/single-number/)
-<p>Given a <strong>non-empty</strong>&nbsp;array of integers, every element appears <em>twice</em> except for one. Find that single one.</p>
+## [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
+<p>给你一个 <strong>非空</strong> 整数数组 <code>nums</code> ，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。</p>
 
-<p><strong>Note:</strong></p>
+<p>你必须设计并实现线性时间复杂度的算法来解决此问题，且该算法只使用常量额外空间。</p>
 
-<p>Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?</p>
+<div class="original__bRMd">
+<div>
+<p>&nbsp;</p>
 
-<p><strong>Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> [2,2,1]
-<strong>Output:</strong> 1
-</pre>
-
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">示例 1 ：</strong></p>
 
 <pre>
-<strong>Input:</strong> [4,1,2,1,2]
-<strong>Output:</strong> 4
+<strong>输入：</strong>nums = [2,2,1]
+<strong>输出：</strong>1
 </pre>
+
+<p><strong class="example">示例 2 ：</strong></p>
+
+<pre>
+<strong>输入：</strong>nums = [4,1,2,1,2]
+<strong>输出：</strong>4
+</pre>
+
+<p><strong class="example">示例 3 ：</strong></p>
+
+<pre>
+<strong>输入：</strong>nums = [1]
+<strong>输出：</strong>1
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>
+	<li><code>-3 * 10<sup>4</sup> &lt;= nums[i] &lt;= 3 * 10<sup>4</sup></code></li>
+	<li>除了某个元素只出现一次以外，其余每个元素均出现两次。</li>
+</ul>
+</div>
+</div>

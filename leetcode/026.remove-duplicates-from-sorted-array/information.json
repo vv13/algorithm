@@ -1,4 +1,17 @@
 {
     "difficulty": "easy",
-    "similarQuestions": "[{\"title\": \"Remove Element\", \"titleSlug\": \"remove-element\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Remove Duplicates from Sorted Array II\", \"titleSlug\": \"remove-duplicates-from-sorted-array-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Remove Element",
+            "titleSlug": "remove-element",
+            "difficulty": "Easy",
+            "translatedTitle": "移除元素"
+        },
+        {
+            "title": "Remove Duplicates from Sorted Array II",
+            "titleSlug": "remove-duplicates-from-sorted-array-ii",
+            "difficulty": "Medium",
+            "translatedTitle": "删除有序数组中的重复项 II"
+        }
+    ]
 }

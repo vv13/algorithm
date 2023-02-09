@@ -1,8 +1,17 @@
 {
-    "rank": 65.84,
-    "tags": [
-        "二分法"
-    ],
     "difficulty": "medium",
-    "similarQuestions": "[{\"title\": \"Search in Rotated Sorted Array II\", \"titleSlug\": \"search-in-rotated-sorted-array-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Find Minimum in Rotated Sorted Array\", \"titleSlug\": \"find-minimum-in-rotated-sorted-array\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Search in Rotated Sorted Array II",
+            "titleSlug": "search-in-rotated-sorted-array-ii",
+            "difficulty": "Medium",
+            "translatedTitle": "搜索旋转排序数组 II"
+        },
+        {
+            "title": "Find Minimum in Rotated Sorted Array",
+            "titleSlug": "find-minimum-in-rotated-sorted-array",
+            "difficulty": "Medium",
+            "translatedTitle": "寻找旋转排序数组中的最小值"
+        }
+    ]
 }

@@ -1,4 +1,11 @@
 {
     "difficulty": "medium",
-    "similarQuestions": "[{\"title\": \"Reverse Nodes in k-Group\", \"titleSlug\": \"reverse-nodes-in-k-group\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Reverse Nodes in k-Group",
+            "titleSlug": "reverse-nodes-in-k-group",
+            "difficulty": "Hard",
+            "translatedTitle": "K 个一组翻转链表"
+        }
+    ]
 }

@@ -5,13 +5,13 @@
             "title": "Valid Sudoku",
             "titleSlug": "valid-sudoku",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "有效的数独"
         },
         {
             "title": "Unique Paths III",
             "titleSlug": "unique-paths-iii",
             "difficulty": "Hard",
-            "translatedTitle": null
+            "translatedTitle": "不同路径 III"
         }
     ]
 }

@@ -1,4 +1,11 @@
 {
     "difficulty": "easy",
-    "similarQuestions": "[{\"title\": \"Integer to Roman\", \"titleSlug\": \"integer-to-roman\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Integer to Roman",
+            "titleSlug": "integer-to-roman",
+            "difficulty": "Medium",
+            "translatedTitle": "整数转罗马数字"
+        }
+    ]
 }

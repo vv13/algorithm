@@ -5,37 +5,37 @@
             "title": "Letter Combinations of a Phone Number",
             "titleSlug": "letter-combinations-of-a-phone-number",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "电话号码的字母组合"
         },
         {
             "title": "Combination Sum II",
             "titleSlug": "combination-sum-ii",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "组合总和 II"
         },
         {
             "title": "Combinations",
             "titleSlug": "combinations",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "组合"
         },
         {
             "title": "Combination Sum III",
             "titleSlug": "combination-sum-iii",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "组合总和 III"
         },
         {
             "title": "Factor Combinations",
             "titleSlug": "factor-combinations",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "因子的组合"
         },
         {
             "title": "Combination Sum IV",
             "titleSlug": "combination-sum-iv",
             "difficulty": "Medium",
-            "translatedTitle": null
+            "translatedTitle": "组合总和 Ⅳ"
         }
     ]
 }

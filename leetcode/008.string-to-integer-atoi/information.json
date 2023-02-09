@@ -1,4 +1,17 @@
 {
     "difficulty": "medium",
-    "similarQuestions": "[{\"title\": \"Reverse Integer\", \"titleSlug\": \"reverse-integer\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Valid Number\", \"titleSlug\": \"valid-number\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Reverse Integer",
+            "titleSlug": "reverse-integer",
+            "difficulty": "Medium",
+            "translatedTitle": "整数反转"
+        },
+        {
+            "title": "Valid Number",
+            "titleSlug": "valid-number",
+            "difficulty": "Hard",
+            "translatedTitle": "有效数字"
+        }
+    ]
 }

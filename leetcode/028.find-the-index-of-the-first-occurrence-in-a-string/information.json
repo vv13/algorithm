@@ -1,0 +1,17 @@
+{
+    "difficulty": "medium",
+    "similarQuestions": [
+        {
+            "title": "Shortest Palindrome",
+            "titleSlug": "shortest-palindrome",
+            "difficulty": "Hard",
+            "translatedTitle": "最短回文串"
+        },
+        {
+            "title": "Repeated Substring Pattern",
+            "titleSlug": "repeated-substring-pattern",
+            "difficulty": "Easy",
+            "translatedTitle": "重复的子字符串"
+        }
+    ]
+}

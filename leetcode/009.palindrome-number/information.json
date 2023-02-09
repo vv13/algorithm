@@ -1,4 +1,11 @@
 {
     "difficulty": "easy",
-    "similarQuestions": "[{\"title\": \"Palindrome Linked List\", \"titleSlug\": \"palindrome-linked-list\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]"
+    "similarQuestions": [
+        {
+            "title": "Palindrome Linked List",
+            "titleSlug": "palindrome-linked-list",
+            "difficulty": "Easy",
+            "translatedTitle": "回文链表"
+        }
+    ]
 }

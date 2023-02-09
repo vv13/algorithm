@@ -1,27 +1,32 @@
-## [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
-<p>You&#39;re given strings <code>J</code> representing the types of stones that are jewels, and <code>S</code> representing the stones you have.&nbsp; Each character in <code>S</code> is a type of stone you have.&nbsp; You want to know how many of the stones you have are also jewels.</p>
+## [771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)
+<p>&nbsp;给你一个字符串 <code>jewels</code>&nbsp;代表石头中宝石的类型，另有一个字符串 <code>stones</code> 代表你拥有的石头。&nbsp;<code>stones</code>&nbsp;中每个字符代表了一种你拥有的石头的类型，你想知道你拥有的石头中有多少是宝石。</p>
 
-<p>The letters in <code>J</code> are guaranteed distinct, and all characters in <code>J</code> and <code>S</code> are letters. Letters are case sensitive, so <code>&quot;a&quot;</code> is considered a different type of stone from <code>&quot;A&quot;</code>.</p>
+<p>字母区分大小写，因此 <code>"a"</code> 和 <code>"A"</code> 是不同类型的石头。</p>
 
-<p><strong>Example 1:</strong></p>
+<p>&nbsp;</p>
 
-<pre>
-<strong>Input:</strong> J = &quot;aA&quot;, S = &quot;aAAbbbb&quot;
-<strong>Output:</strong> 3
-</pre>
-
-<p><strong>Example 2:</strong></p>
+<p><strong>示例 1：</strong></p>
 
 <pre>
-<strong>Input:</strong> J = &quot;z&quot;, S = &quot;ZZ&quot;
-<strong>Output:</strong> 0
+<strong>输入：</strong>jewels = "aA", stones = "aAAbbbb"
+<strong>输出：</strong>3
 </pre>
 
-<p><strong>Note:</strong></p>
+<p><strong>示例 2：</strong></p>
+
+<pre>
+<strong>输入：</strong>jewels = "z", stones = "ZZ"
+<strong>输出：</strong>0<strong>
+</strong></pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
 
 <ul>
-	<li><code>S</code> and <code>J</code> will consist of letters and have length at most 50.</li>
-	<li>The characters in <code>J</code> are distinct.</li>
+	<li><code>1 &lt;=&nbsp;jewels.length, stones.length &lt;= 50</code></li>
+	<li><code>jewels</code> 和 <code>stones</code> 仅由英文字母组成</li>
+	<li><code>jewels</code> 中的所有字符都是 <strong>唯一的</strong></li>
 </ul>
 
 

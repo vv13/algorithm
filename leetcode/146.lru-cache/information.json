@@ -5,19 +5,19 @@
             "title": "LFU Cache",
             "titleSlug": "lfu-cache",
             "difficulty": "Hard",
-            "translatedTitle": null
+            "translatedTitle": "LFU 缓存"
         },
         {
             "title": "Design In-Memory File System",
             "titleSlug": "design-in-memory-file-system",
             "difficulty": "Hard",
-            "translatedTitle": null
+            "translatedTitle": "设计内存文件系统"
         },
         {
             "title": "Design Compressed String Iterator",
             "titleSlug": "design-compressed-string-iterator",
             "difficulty": "Easy",
-            "translatedTitle": null
+            "translatedTitle": "迭代压缩字符串"
         }
     ]
 }
