@@ -26,9 +26,11 @@ def genLineStr(s: str):
         info['rank'] = str(rank) + '%' if rank else ''
         data_file.close()
 
-    links = [
-        '[答案]({0})'.format(os.path.join(source_dir + '/solution.py'))
-    ]
+    links = []
+    if os.path.exists(source_dir + '/Solution.py'):
+        links.append('[Python]({0})'.format(os.path.join(source_dir + '/Solution.py')))
+    if os.path.exists(source_dir + '/Solution.java'):
+        links.append('[Java]({0})'.format(os.path.join(source_dir + '/Solution.java')))
     info['links'] = '  '.join(links)
 
     return '|{number}|{link_name}|{difficulty}|{tags}|{links}|{mark}|{rank}|'.format(**info)
@@ -36,7 +38,7 @@ def genLineStr(s: str):
 
 file = open('README.md', 'w')
 leetcodes = [genLineStr(i) for i in sorted(
-    os.listdir('./leetcode')) if i != 'utility']
+    os.listdir('./leetcode')) if i not in ['utility', '.idea', 'leetcode.iml', 'out']]
 t = string.Template(open('./README_TEMPLATE.md', 'r').read())
 data = {'leetcode': os.linesep.join(leetcodes)}
 file.write(t.safe_substitute({'leetcode': os.linesep.join(leetcodes)}))
